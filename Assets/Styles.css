@@ -1,0 +1,202 @@
+:root {
+    --light: rgb(164, 230, 230);
+    --greyish: rgb(60, 61, 61);
+    --niceblue: rgb(67, 66, 119);
+}
+
+a { color: inherit; } 
+
+header {
+    background-color: var(--greyish);
+    padding-bottom:20px;
+    position:relative;
+}
+
+h1 {
+    text-align: right;
+    font-family: sans-serif;
+    font-size:40px;
+    background-color: var(--light);
+    border-right: 5px;
+    width: 350px;
+    color: var(--greyish);
+}
+
+.nav {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    min-width: 100px;
+    color: var(--light);
+    text-decoration: 3px underline;
+}
+
+.banner {
+    background-image: url("Banner\ IMage.jpg");
+    filter:grayscale(50%);
+    height: 125px;
+}
+
+.otwu {
+    text-align: center;
+    display:flex;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: var(--greyish);
+    border-radius: 20px;
+    width: 300px;
+    left: 43%;
+    top: 18%;
+    
+}
+
+body {
+    background-color:rgb(237, 240, 255);
+}
+
+.panels {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    color: var(--niceblue);
+    font-family: sans-serif;
+    font-size: 35px;
+    border-right: 4px solid var(--niceblue);
+    margin: 20px;
+    padding: 50px;
+    
+}
+
+.lorum {
+    margin:50px;
+    justify-content: center;
+    color: var(--niceblue);
+    font-size: 20px;
+    text-align: center;
+}
+
+.surfReport {
+    display: flex;
+}
+
+.images {
+    display: flex;
+    border: 5px solid var(--light);
+}
+
+.static {
+    display: flex;
+    position: absolute;
+    background: white;
+    filter: grayscale(50%);
+    margin: 20px;
+}
+
+.active {
+    display: flex;
+    margin: 20px;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.hSurf {
+    min-width: 177.5px;
+    color: var(--greyish);
+    background-color: var(--light);
+    border-radius:5px;
+    padding:20px;
+    padding-bottom: 40px;
+    height: 20px;
+    position: relative;
+    top: 570px;
+    right: 1230px;
+}
+
+.surf {
+    width: 1238px;
+    height:auto;
+}
+
+.hLED {
+    min-width: 177.5px;
+    color: var(--greyish);
+    background-color: var(--light);
+    border-radius:5px;
+    padding:20px;
+    padding-bottom: 40px;
+    position:relative;
+    height: 20px;
+    top: 400px;
+    right: 500px;
+}
+
+.calc {
+    display: flex;
+    margin: 20px;
+    filter: grayscale(50%);
+}
+
+.calc:hover {
+    filter: grayscale(0%);
+}
+
+.hCalc {
+        min-width: 177.5px;
+        color: var(--greyish);
+        background-color: var(--light);
+        border-radius:5px;
+        padding:20px;
+        padding-bottom: 40px;
+        position:relative;
+        height: 20px;
+        top: 400px;
+        right: 500px;
+}
+
+
+
+.pastel {
+    height:auto;
+    width: 1238px;
+}
+
+.hPastel {
+    min-width: 177.5px;
+        color: var(--greyish);
+        background-color: var(--light);
+        border-radius:5px;
+        padding:20px;
+        padding-bottom: 40px;
+        position:relative;
+        height: 20px;
+        top: 570px;
+        right: 1230px;
+}
+.run {
+    height: 500px;
+    width: 500px;
+}
+
+.footerB {
+    display:flex;
+    min-width: 20px;
+    color: var(--greyish);
+    text-decoration: 3px var(--niceblue) underline;
+    font-size: 30px;
+}
+
+.fixmargin {
+    margin: 14px;
+}
+
